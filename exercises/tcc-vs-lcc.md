@@ -5,6 +5,8 @@ the same value for a given Java class. Build an example of such as class and inc
 example in an open-source project from Github and include the link to the class below. Could LCC be lower than TCC
 for any given class? Explain.
 
+A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.github.io/vandv-classes/#cohesion-graph).
+
 ## Answer
 
 Si la même valeur est produite, soit la classe n'a pas d'attributs ou 
