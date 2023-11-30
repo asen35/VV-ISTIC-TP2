@@ -8,14 +8,18 @@ import com.github.javaparser.ast.visitor.VoidVisitor;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
+
         if(args.length == 0) {
             System.err.println("Should provide the path to the source code");
             System.exit(1);
@@ -29,10 +33,36 @@ public class Main {
 
         SourceRoot root = new SourceRoot(file.toPath());
         PublicElementsPrinter printer = new PublicElementsPrinter();
+
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
+
+
+        // Créer une liste pour stocker les résultats
+        List<String> resultsList = printer.getResultsList(); // Assurez-vous que votre classe a une méthode pour récupérer les résultats
+
+        // Appel de la méthode pour sauvegarder les résultats dans un fichier CSV
+        saveResultsToCSV(resultsList, "output.csv");
+
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+    }
+
+
+    private static void saveResultsToCSV(List<String> resultsList, String fileName) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
+            // En-tête CSV si nécessaire
+            writer.write("Element\n");
+
+            // Écrire chaque résultat dans le fichier CSV
+            for (String result : resultsList) {
+                writer.write(result + "\n");
+            }
+
+            System.out.println("Results saved to " + fileName);
+        } catch (IOException e) {
+            System.err.println("Error writing to CSV file: " + e.getMessage());
+        }
     }
 
 

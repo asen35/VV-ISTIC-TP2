@@ -1,0 +1,6 @@
+Element
+fr.istic.vv.Main
+fr.istic.vv.Person
+    No getter found for field: age
+fr.istic.vv.PublicElementsPrinter
+    No getter found for field: resultList
