@@ -22,4 +22,22 @@ You can find more information on extending PMD in the following link: https://pm
 Use your rule with different projects and describe you findings below. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 ## Answer
-
+```
+<rule
+    name="AvoidDeeplyNestedIfStatements"
+    language="java"
+    message="Avoid using three or more nested 'if' statements"
+    class="net.sourceforge.pmd.lang.rule.XPathRule">
+    <description>
+    This rule detects the use of three or more nested 'if' statements.
+    </description>
+    <priority>3</priority>
+    <properties>
+        <property name="xpath">
+            <value>
+                //IfStatement[count(ancestor::IfStatement) >= 2]
+            </value>
+        </property>
+    </properties>
+</rule>
+```
