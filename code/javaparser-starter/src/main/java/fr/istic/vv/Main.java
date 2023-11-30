@@ -32,17 +32,12 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        PrivateFieldWithoutGetterPrinter printer = new PrivateFieldWithoutGetterPrinter();
 
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
 
-
-        // Créer une liste pour stocker les résultats
-        List<String> resultsList = printer.getResultsList(); // Assurez-vous que votre classe a une méthode pour récupérer les résultats
-
-        // Appel de la méthode pour sauvegarder les résultats dans un fichier CSV
-        saveResultsToCSV(resultsList, "output.csv");
+        saveResultsToCSV(printer.getResultsList(), "output.csv");
 
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
