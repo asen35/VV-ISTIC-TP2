@@ -5,13 +5,9 @@ import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.nodeTypes.NodeWithMembers;
 import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Optional;
+import java.util.List;
 
-
-// This class visits a compilation unit and
-// prints all public enum, classes or interfaces along with their public methods
 public class PrivateFieldWithoutGetterPrinter extends VoidVisitorWithDefaults<Void> {
 
     private List<String> resultList = new ArrayList<>();
@@ -48,7 +44,6 @@ public class PrivateFieldWithoutGetterPrinter extends VoidVisitorWithDefaults<Vo
 
 
     }
-
 
     @Override
     public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {

@@ -1,5 +1,7 @@
-Element
+Elements
+fr.istic.vv.CyclomaticComplexities
 fr.istic.vv.MainForCyclomaticComplexities
+fr.istic.vv.MainForPrivateField
 fr.istic.vv.Person
     No getter found for field: age
 fr.istic.vv.PrivateFieldWithoutGetterPrinter

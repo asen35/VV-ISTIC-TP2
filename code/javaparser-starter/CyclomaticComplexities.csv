@@ -1,0 +1,75 @@
+Elements
+fr.istic.vv.CyclomaticComplexities
+Method: getResultsList; Parameter types : ; Cyclomatic Complexity: 1
+Method: getCcNames; Parameter types : ; Cyclomatic Complexity: 1
+Method: getCcValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: visit; Parameter types : CompilationUnit, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : ClassOrInterfaceDeclaration, Void; Cyclomatic Complexity: 1
+Method: visitTypeDeclaration; Parameter types : TypeDeclaration<?>, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : MethodDeclaration, Void; Cyclomatic Complexity: 1
+Method: getParameterTypes; Parameter types : MethodDeclaration; Cyclomatic Complexity: 1
+Method: visit; Parameter types : ForStmt, Void; Cyclomatic Complexity: 2
+Method: visit; Parameter types : SwitchStmt, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : IfStmt, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : WhileStmt, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : DoStmt, Void; Cyclomatic Complexity: 1
+Method: countBooleanConditions; Parameter types : Expression, int; Cyclomatic Complexity: 2
+fr.istic.vv.MainForCyclomaticComplexities
+Method: main; Parameter types : String[]; Cyclomatic Complexity: 5
+Method: saveResultsToCSV; Parameter types : List<String>, List<String>, List<Integer>, String; Cyclomatic Complexity: 1
+Method: generateHistogram; Parameter types : List<String>, List<Integer>; Cyclomatic Complexity: 2
+fr.istic.vv.MainForPrivateField
+Method: main; Parameter types : String[]; Cyclomatic Complexity: 5
+Method: saveResultsToCSV; Parameter types : List<String>, String; Cyclomatic Complexity: 1
+fr.istic.vv.Person
+Method: getName; Parameter types : ; Cyclomatic Complexity: 1
+Method: isAdult; Parameter types : ; Cyclomatic Complexity: 1
+fr.istic.vv.PrivateFieldWithoutGetterPrinter
+Method: getResultsList; Parameter types : ; Cyclomatic Complexity: 1
+Method: visit; Parameter types : CompilationUnit, Void; Cyclomatic Complexity: 1
+Method: visitTypeDeclaration; Parameter types : TypeDeclaration<?>, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : ClassOrInterfaceDeclaration, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : EnumDeclaration, Void; Cyclomatic Complexity: 1
+Method: visit; Parameter types : MethodDeclaration, Void; Cyclomatic Complexity: 2
+Method: visit; Parameter types : FieldDeclaration, Void; Cyclomatic Complexity: 2
+Method: hasGetter; Parameter types : NodeWithMembers<?>, String; Cyclomatic Complexity: 1
+fr.istic.vv.testCyclo
+Method: doIt; Parameter types : ; Cyclomatic Complexity: 13
+
+Cyclomatic Complexity Histogram:
+fr.istic.vv.CyclomaticComplexities
+CC getResultsList: ;*
+CC getCcNames: ;*
+CC getCcValues: ;*
+CC visit: ;*
+CC visit: ;*
+CC visitTypeDeclaration: ;*
+CC visit: ;*
+CC getParameterTypes: ;*
+CC visit: ;**
+CC visit: ;*
+CC visit: ;*
+CC visit: ;*
+CC visit: ;*
+CC countBooleanConditions: ;**
+fr.istic.vv.MainForCyclomaticComplexities
+CC main: ;*****
+CC saveResultsToCSV: ;*
+CC generateHistogram: ;**
+fr.istic.vv.MainForPrivateField
+CC main: ;*****
+CC saveResultsToCSV: ;*
+fr.istic.vv.Person
+CC getName: ;*
+CC isAdult: ;*
+fr.istic.vv.PrivateFieldWithoutGetterPrinter
+CC getResultsList: ;*
+CC visit: ;*
+CC visitTypeDeclaration: ;*
+CC visit: ;*
+CC visit: ;*
+CC visit: ;**
+CC visit: ;**
+CC hasGetter: ;*
+fr.istic.vv.testCyclo
+CC doIt: ;*************
