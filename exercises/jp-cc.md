@@ -10,3 +10,6 @@ You may use [javaparser-starter](../code/javaparser-starter) as a starting point
 
 # Note
 - Fichier résultat au format CSV, séparateur : ';'.
+
+- Comparaison de commons-cli-master et commons-collections-master :
+  - Les deux projets contiennent majoritairement des méthodes de complexité 1. Ainsi que quelques méthodes à complexité plus élevé, jusqu'à 10 pour cli et 12 pour collections.
