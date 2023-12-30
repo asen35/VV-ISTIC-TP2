@@ -48,7 +48,6 @@ public class CyclomaticComplexities extends VoidVisitorWithDefaults<Void> {
 
     public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
         resultList.add(declaration.getFullyQualifiedName().orElse("[Anonymous]"));
-        System.out.println(declaration.getFullyQualifiedName().orElse("[Anonymous]"));
         ccNames.add(declaration.getFullyQualifiedName().orElse("[Anonymous]"));
         ccValues.add(-1);
 
@@ -66,7 +65,6 @@ public class CyclomaticComplexities extends VoidVisitorWithDefaults<Void> {
         }
 
         resultList.add("Method: " + declaration.getName() + "; Parameter types : " + getParameterTypes(declaration) + "; Cyclomatic Complexity: " + cyclomaticComplexity);
-        System.out.println("Method: " + declaration.getName() + "; Cyclomatic Complexity: " + cyclomaticComplexity);
         ccNames.add(String.valueOf(declaration.getName()));
         ccValues.add(cyclomaticComplexity);
     }

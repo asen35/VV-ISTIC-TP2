@@ -46,8 +46,6 @@ public class MainForCyclomaticComplexities {
 
             // Écrire l'histogramme
             writer.write('\n' + generateHistogram(ccNames, ccValues));
-
-            System.out.println("Results saved to " + fileName);
         } catch (IOException e) {
             System.err.println("Error writing to CSV file: " + e.getMessage());
         }

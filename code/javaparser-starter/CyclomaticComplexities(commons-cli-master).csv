@@ -1,0 +1,1239 @@
+Elements
+org.apache.commons.cli.AlreadySelectedException
+Method: getOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOptionGroup; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.AmbiguousOptionException
+Method: createMessage; Parameter types : String, Collection<String>; Cyclomatic Complexity: 2
+Method: getMatchingOptions; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.BasicParser
+Method: flatten; Parameter types : Options, String[], boolean; Cyclomatic Complexity: 1
+org.apache.commons.cli.CommandLine
+Method: addArg; Parameter types : String; Cyclomatic Complexity: 2
+Method: addOption; Parameter types : Option; Cyclomatic Complexity: 2
+Method: getArgList; Parameter types : ; Cyclomatic Complexity: 1
+Method: getArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOptionObject; Parameter types : char; Cyclomatic Complexity: 1
+Method: getOptionObject; Parameter types : String; Cyclomatic Complexity: 1
+Method: getOptionProperties; Parameter types : Option; Cyclomatic Complexity: 1
+Method: getOptionProperties; Parameter types : String; Cyclomatic Complexity: 1
+Method: getOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOptionValue; Parameter types : char; Cyclomatic Complexity: 1
+Method: getOptionValue; Parameter types : char, String; Cyclomatic Complexity: 1
+Method: getOptionValue; Parameter types : Option; Cyclomatic Complexity: 2
+Method: getOptionValue; Parameter types : Option, String; Cyclomatic Complexity: 1
+Method: getOptionValue; Parameter types : String; Cyclomatic Complexity: 1
+Method: getOptionValue; Parameter types : String, String; Cyclomatic Complexity: 1
+Method: getOptionValues; Parameter types : char; Cyclomatic Complexity: 1
+Method: getOptionValues; Parameter types : Option; Cyclomatic Complexity: 1
+Method: getOptionValues; Parameter types : String; Cyclomatic Complexity: 1
+Method: getParsedOptionValue; Parameter types : char; Cyclomatic Complexity: 1
+Method: getParsedOptionValue; Parameter types : Option; Cyclomatic Complexity: 3
+Method: getParsedOptionValue; Parameter types : String; Cyclomatic Complexity: 1
+Method: hasOption; Parameter types : char; Cyclomatic Complexity: 1
+Method: hasOption; Parameter types : Option; Cyclomatic Complexity: 1
+Method: hasOption; Parameter types : String; Cyclomatic Complexity: 1
+Method: iterator; Parameter types : ; Cyclomatic Complexity: 1
+Method: resolveOption; Parameter types : String; Cyclomatic Complexity: 2
+org.apache.commons.cli.CommandLineParser
+Method: parse; Parameter types : Options, String[]; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[], boolean; Cyclomatic Complexity: 1
+org.apache.commons.cli.DefaultParser
+Method: builder; Parameter types : ; Cyclomatic Complexity: 1
+Method: checkRequiredArgs; Parameter types : ; Cyclomatic Complexity: 3
+Method: checkRequiredOptions; Parameter types : ; Cyclomatic Complexity: 2
+Method: getLongPrefix; Parameter types : String; Cyclomatic Complexity: 2
+Method: getMatchingLongOptions; Parameter types : String; Cyclomatic Complexity: 3
+Method: handleConcatenatedOptions; Parameter types : String; Cyclomatic Complexity: 2
+Method: handleLongOption; Parameter types : String; Cyclomatic Complexity: 2
+Method: handleLongOptionWithEqual; Parameter types : String; Cyclomatic Complexity: 2
+Method: handleLongOptionWithoutEqual; Parameter types : String; Cyclomatic Complexity: 2
+Method: handleOption; Parameter types : Option; Cyclomatic Complexity: 2
+Method: handleProperties; Parameter types : Properties; Cyclomatic Complexity: 3
+Method: handleShortAndLongOption; Parameter types : String; Cyclomatic Complexity: 2
+Method: handleToken; Parameter types : String; Cyclomatic Complexity: 4
+Method: handleUnknownToken; Parameter types : String; Cyclomatic Complexity: 5
+Method: isArgument; Parameter types : String; Cyclomatic Complexity: 1
+Method: isJavaProperty; Parameter types : String; Cyclomatic Complexity: 1
+Method: isLongOption; Parameter types : String; Cyclomatic Complexity: 7
+Method: isNegativeNumber; Parameter types : String; Cyclomatic Complexity: 1
+Method: isOption; Parameter types : String; Cyclomatic Complexity: 1
+Method: isShortOption; Parameter types : String; Cyclomatic Complexity: 5
+Method: parse; Parameter types : Options, String[]; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[], boolean; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[], Properties; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[], Properties, boolean; Cyclomatic Complexity: 2
+Method: stripLeadingAndTrailingQuotesDefaultOff; Parameter types : String; Cyclomatic Complexity: 3
+Method: stripLeadingAndTrailingQuotesDefaultOn; Parameter types : String; Cyclomatic Complexity: 3
+Method: updateRequiredOptions; Parameter types : Option; Cyclomatic Complexity: 3
+org.apache.commons.cli.GnuParser
+Method: flatten; Parameter types : Options, String[], boolean; Cyclomatic Complexity: 2
+org.apache.commons.cli.HelpFormatter
+Method: appendOption; Parameter types : StringBuffer, Option, boolean; Cyclomatic Complexity: 6
+Method: appendOptionGroup; Parameter types : StringBuffer, OptionGroup; Cyclomatic Complexity: 5
+Method: createPadding; Parameter types : int; Cyclomatic Complexity: 1
+Method: findWrapPos; Parameter types : String, int, int; Cyclomatic Complexity: 8
+Method: getArgName; Parameter types : ; Cyclomatic Complexity: 1
+Method: getDescPadding; Parameter types : ; Cyclomatic Complexity: 1
+Method: getLeftPadding; Parameter types : ; Cyclomatic Complexity: 1
+Method: getLongOptPrefix; Parameter types : ; Cyclomatic Complexity: 1
+Method: getLongOptSeparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: getNewLine; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOptionComparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOptPrefix; Parameter types : ; Cyclomatic Complexity: 1
+Method: getSyntaxPrefix; Parameter types : ; Cyclomatic Complexity: 1
+Method: getWidth; Parameter types : ; Cyclomatic Complexity: 1
+Method: printHelp; Parameter types : int, String, String, Options, String; Cyclomatic Complexity: 1
+Method: printHelp; Parameter types : int, String, String, Options, String, boolean; Cyclomatic Complexity: 1
+Method: printHelp; Parameter types : PrintWriter, int, String, String, Options, int, int, String; Cyclomatic Complexity: 1
+Method: printHelp; Parameter types : PrintWriter, int, String, String, Options, int, int, String, boolean; Cyclomatic Complexity: 8
+Method: printHelp; Parameter types : String, Options; Cyclomatic Complexity: 1
+Method: printHelp; Parameter types : String, Options, boolean; Cyclomatic Complexity: 1
+Method: printHelp; Parameter types : String, String, Options, String; Cyclomatic Complexity: 1
+Method: printHelp; Parameter types : String, String, Options, String, boolean; Cyclomatic Complexity: 1
+Method: printOptions; Parameter types : PrintWriter, int, Options, int, int; Cyclomatic Complexity: 1
+Method: printUsage; Parameter types : PrintWriter, int, String; Cyclomatic Complexity: 1
+Method: printUsage; Parameter types : PrintWriter, int, String, Options; Cyclomatic Complexity: 3
+Method: printWrapped; Parameter types : PrintWriter, int, int, String; Cyclomatic Complexity: 1
+Method: printWrapped; Parameter types : PrintWriter, int, String; Cyclomatic Complexity: 1
+Method: renderOptions; Parameter types : StringBuffer, int, Options, int, int; Cyclomatic Complexity: 3
+Method: renderWrappedText; Parameter types : StringBuffer, int, int, String; Cyclomatic Complexity: 4
+Method: renderWrappedTextBlock; Parameter types : StringBuffer, int, int, String; Cyclomatic Complexity: 1
+Method: rtrim; Parameter types : String; Cyclomatic Complexity: 5
+Method: setArgName; Parameter types : String; Cyclomatic Complexity: 1
+Method: setDescPadding; Parameter types : int; Cyclomatic Complexity: 1
+Method: setLeftPadding; Parameter types : int; Cyclomatic Complexity: 1
+Method: setLongOptPrefix; Parameter types : String; Cyclomatic Complexity: 1
+Method: setLongOptSeparator; Parameter types : String; Cyclomatic Complexity: 1
+Method: setNewLine; Parameter types : String; Cyclomatic Complexity: 1
+Method: setOptionComparator; Parameter types : Comparator<Option>; Cyclomatic Complexity: 1
+Method: setOptPrefix; Parameter types : String; Cyclomatic Complexity: 1
+Method: setSyntaxPrefix; Parameter types : String; Cyclomatic Complexity: 1
+Method: setWidth; Parameter types : int; Cyclomatic Complexity: 1
+org.apache.commons.cli.MissingArgumentException
+Method: getOption; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.MissingOptionException
+Method: createMessage; Parameter types : List<?>; Cyclomatic Complexity: 2
+Method: getMissingOptions; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.Option
+Method: builder; Parameter types : ; Cyclomatic Complexity: 1
+Method: builder; Parameter types : String; Cyclomatic Complexity: 1
+Method: acceptsArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: add; Parameter types : String; Cyclomatic Complexity: 2
+Method: addValue; Parameter types : String; Cyclomatic Complexity: 1
+Method: addValueForProcessing; Parameter types : String; Cyclomatic Complexity: 2
+Method: clearValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: clone; Parameter types : ; Cyclomatic Complexity: 1
+Method: equals; Parameter types : Object; Cyclomatic Complexity: 3
+Method: getArgName; Parameter types : ; Cyclomatic Complexity: 1
+Method: getArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: getDescription; Parameter types : ; Cyclomatic Complexity: 1
+Method: getId; Parameter types : ; Cyclomatic Complexity: 1
+Method: getKey; Parameter types : ; Cyclomatic Complexity: 1
+Method: getLongOpt; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOpt; Parameter types : ; Cyclomatic Complexity: 1
+Method: getType; Parameter types : ; Cyclomatic Complexity: 1
+Method: getValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: getValue; Parameter types : int; Cyclomatic Complexity: 1
+Method: getValue; Parameter types : String; Cyclomatic Complexity: 1
+Method: getValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: getValueSeparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: getValuesList; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasArgName; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: hashCode; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasLongOpt; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasNoValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasOptionalArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasValueSeparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: isRequired; Parameter types : ; Cyclomatic Complexity: 1
+Method: processValue; Parameter types : String; Cyclomatic Complexity: 2
+Method: requiresArg; Parameter types : ; Cyclomatic Complexity: 3
+Method: setArgName; Parameter types : String; Cyclomatic Complexity: 1
+Method: setArgs; Parameter types : int; Cyclomatic Complexity: 1
+Method: setDescription; Parameter types : String; Cyclomatic Complexity: 1
+Method: setLongOpt; Parameter types : String; Cyclomatic Complexity: 1
+Method: setOptionalArg; Parameter types : boolean; Cyclomatic Complexity: 1
+Method: setRequired; Parameter types : boolean; Cyclomatic Complexity: 1
+Method: setType; Parameter types : Class<?>; Cyclomatic Complexity: 1
+Method: setType; Parameter types : Object; Cyclomatic Complexity: 1
+Method: setValueSeparator; Parameter types : char; Cyclomatic Complexity: 1
+Method: toString; Parameter types : ; Cyclomatic Complexity: 4
+org.apache.commons.cli.OptionBuilder
+Method: create; Parameter types : ; Cyclomatic Complexity: 2
+Method: create; Parameter types : char; Cyclomatic Complexity: 1
+Method: create; Parameter types : String; Cyclomatic Complexity: 1
+Method: hasArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasArg; Parameter types : boolean; Cyclomatic Complexity: 1
+Method: hasArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasArgs; Parameter types : int; Cyclomatic Complexity: 1
+Method: hasOptionalArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasOptionalArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasOptionalArgs; Parameter types : int; Cyclomatic Complexity: 1
+Method: isRequired; Parameter types : ; Cyclomatic Complexity: 1
+Method: isRequired; Parameter types : boolean; Cyclomatic Complexity: 1
+Method: reset; Parameter types : ; Cyclomatic Complexity: 1
+Method: withArgName; Parameter types : String; Cyclomatic Complexity: 1
+Method: withDescription; Parameter types : String; Cyclomatic Complexity: 1
+Method: withLongOpt; Parameter types : String; Cyclomatic Complexity: 1
+Method: withType; Parameter types : Class<?>; Cyclomatic Complexity: 1
+Method: withType; Parameter types : Object; Cyclomatic Complexity: 1
+Method: withValueSeparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: withValueSeparator; Parameter types : char; Cyclomatic Complexity: 1
+org.apache.commons.cli.OptionGroup
+Method: addOption; Parameter types : Option; Cyclomatic Complexity: 1
+Method: getNames; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: getSelected; Parameter types : ; Cyclomatic Complexity: 1
+Method: isRequired; Parameter types : ; Cyclomatic Complexity: 1
+Method: setRequired; Parameter types : boolean; Cyclomatic Complexity: 1
+Method: setSelected; Parameter types : Option; Cyclomatic Complexity: 4
+Method: toString; Parameter types : ; Cyclomatic Complexity: 2
+org.apache.commons.cli.Options
+Method: addOption; Parameter types : Option; Cyclomatic Complexity: 3
+Method: addOption; Parameter types : String, boolean, String; Cyclomatic Complexity: 1
+Method: addOption; Parameter types : String, String; Cyclomatic Complexity: 1
+Method: addOption; Parameter types : String, String, boolean, String; Cyclomatic Complexity: 1
+Method: addOptionGroup; Parameter types : OptionGroup; Cyclomatic Complexity: 2
+Method: addRequiredOption; Parameter types : String, String, boolean, String; Cyclomatic Complexity: 1
+Method: getMatchingOptions; Parameter types : String; Cyclomatic Complexity: 2
+Method: getOption; Parameter types : String; Cyclomatic Complexity: 1
+Method: getOptionGroup; Parameter types : Option; Cyclomatic Complexity: 1
+Method: getOptionGroups; Parameter types : ; Cyclomatic Complexity: 1
+Method: getOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: getRequiredOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: hasLongOption; Parameter types : String; Cyclomatic Complexity: 1
+Method: hasOption; Parameter types : String; Cyclomatic Complexity: 1
+Method: hasShortOption; Parameter types : String; Cyclomatic Complexity: 1
+Method: helpOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: toString; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.OptionValidator
+Method: isValidChar; Parameter types : char; Cyclomatic Complexity: 1
+Method: isValidOpt; Parameter types : char; Cyclomatic Complexity: 1
+Method: validate; Parameter types : String; Cyclomatic Complexity: 3
+org.apache.commons.cli.ParseException
+org.apache.commons.cli.Parser
+Method: checkRequiredOptions; Parameter types : ; Cyclomatic Complexity: 2
+Method: flatten; Parameter types : Options, String[], boolean; Cyclomatic Complexity: 1
+Method: getOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: getRequiredOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[]; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[], boolean; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[], Properties; Cyclomatic Complexity: 1
+Method: parse; Parameter types : Options, String[], Properties, boolean; Cyclomatic Complexity: 3
+Method: processArgs; Parameter types : Option, ListIterator<String>; Cyclomatic Complexity: 4
+Method: processOption; Parameter types : String, ListIterator<String>; Cyclomatic Complexity: 3
+Method: processProperties; Parameter types : Properties; Cyclomatic Complexity: 3
+Method: setOptions; Parameter types : Options; Cyclomatic Complexity: 1
+Method: updateRequiredOptions; Parameter types : Option; Cyclomatic Complexity: 3
+org.apache.commons.cli.PatternOptionBuilder
+Method: getValueClass; Parameter types : char; Cyclomatic Complexity: 10
+Method: isValueCode; Parameter types : char; Cyclomatic Complexity: 1
+Method: parsePattern; Parameter types : String; Cyclomatic Complexity: 3
+org.apache.commons.cli.PosixParser
+Method: burstToken; Parameter types : String, boolean; Cyclomatic Complexity: 2
+Method: flatten; Parameter types : Options, String[], boolean; Cyclomatic Complexity: 2
+Method: gobble; Parameter types : Iterator<String>; Cyclomatic Complexity: 2
+Method: init; Parameter types : ; Cyclomatic Complexity: 1
+Method: processNonOptionToken; Parameter types : String, boolean; Cyclomatic Complexity: 3
+Method: processOptionToken; Parameter types : String, boolean; Cyclomatic Complexity: 4
+org.apache.commons.cli.TypeHandler
+Method: createClass; Parameter types : String; Cyclomatic Complexity: 1
+Method: createDate; Parameter types : String; Cyclomatic Complexity: 1
+Method: createFile; Parameter types : String; Cyclomatic Complexity: 1
+Method: createFiles; Parameter types : String; Cyclomatic Complexity: 1
+Method: createNumber; Parameter types : String; Cyclomatic Complexity: 1
+Method: createObject; Parameter types : String; Cyclomatic Complexity: 1
+Method: createURL; Parameter types : String; Cyclomatic Complexity: 1
+Method: createValue; Parameter types : String, Class<T>; Cyclomatic Complexity: 10
+Method: createValue; Parameter types : String, Object; Cyclomatic Complexity: 1
+Method: openFile; Parameter types : String; Cyclomatic Complexity: 1
+org.apache.commons.cli.UnrecognizedOptionException
+Method: getOption; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.Util
+Method: stripLeadingAndTrailingQuotes; Parameter types : String; Cyclomatic Complexity: 5
+Method: stripLeadingHyphens; Parameter types : String; Cyclomatic Complexity: 4
+org.apache.commons.cli.AbstractParserTestCase
+Method: parse; Parameter types : CommandLineParser, Options, String[], Properties; Cyclomatic Complexity: 3
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousArgParsing; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption3; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testArgumentStartingWithHyphen; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testDoubleDash1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testDoubleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionWithEqualsQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithEqualDoubleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithoutEqualDoubleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithUnexpectedArgument1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithUnexpectedArgument2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingArgWithBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingRequiredGroup; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingRequiredOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingRequiredOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMultiple; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMultipleWithLong; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNegativeArgument; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNegativeOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionAndRequiredOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionGroup; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionGroupLong; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPartialLongOptionSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertiesOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertiesOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertyOptionFlags; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertyOptionGroup; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertyOptionMultipleValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertyOptionRequired; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertyOptionSingularValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertyOptionUnexpected; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertyOverrideValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testReuseOptionsTwice; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionConcatenatedQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithEqual; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithoutEqual; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithUnexpectedArgument; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSimpleLong; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSimpleShort; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopAtExpectedArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopAtNonOptionLong; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopAtNonOptionShort; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopAtUnexpectedArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopBursting2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption3; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnlimitedArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnrecognizedOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnrecognizedOptionWithBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testWithRequiredOption; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.ApplicationTest
+Method: testAnt; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGroovy; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLs; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMan; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNLT; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.ArgumentIsOptionTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionAndOptionWithArgument; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionWithArgument; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.BasicParserTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption3; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testDoubleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionWithEqualsQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithEqualDoubleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingArgWithBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNegativeOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPartialLongOptionSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertiesOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPropertiesOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionConcatenatedQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithEqual; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithoutEqual; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopBursting2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption3; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnrecognizedOptionWithBursting; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI133Test
+Method: testOrder; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI13Test
+Method: testCLI13; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI148Test
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testWorkaround1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testWorkaround2; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI162Test
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testInfiniteLoop; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongLineChunking; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongLineChunkingIndentIgnored; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintHelpLongLines; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI18Test
+Method: testCLI18; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI252Test
+Method: getOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiquousOptionName; Parameter types : ; Cyclomatic Complexity: 1
+Method: testExactOptionNameMatch; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI265Test
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShouldParseConcatenatedShortOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShouldParseShortOptionWithoutValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShouldParseShortOptionWithValue; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI266Test
+Method: buildOptionsGroup; Parameter types : Options; Cyclomatic Complexity: 1
+Method: getOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionComparatorDefaultOrder; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionComparatorInsertedOrder; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugCLI71Test
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBasic; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetsDefaultIfOptional; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLackOfError; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMistakenArgument; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.bug.BugsTest
+Method: test11456; Parameter types : ; Cyclomatic Complexity: 1
+Method: test11457; Parameter types : ; Cyclomatic Complexity: 1
+Method: test11458; Parameter types : ; Cyclomatic Complexity: 2
+Method: test11680; Parameter types : ; Cyclomatic Complexity: 1
+Method: test12210; Parameter types : ; Cyclomatic Complexity: 2
+Method: test13425; Parameter types : ; Cyclomatic Complexity: 1
+Method: test13666; Parameter types : ; Cyclomatic Complexity: 1
+Method: test13935; Parameter types : ; Cyclomatic Complexity: 1
+Method: test14786; Parameter types : ; Cyclomatic Complexity: 1
+Method: test15046; Parameter types : ; Cyclomatic Complexity: 1
+Method: test15648; Parameter types : ; Cyclomatic Complexity: 1
+Method: test31148; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.CommandLineTest
+Method: testBuilder; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderNullArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderNullOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetOptionProperties; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetOptionPropertiesWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetParsedOptionValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetParsedOptionValueWithChar; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetParsedOptionValueWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNullhOption; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.DefaultParserTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilder; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionQuoteHandlingWithoutStrip; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionQuoteHandlingWithStrip; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionWithEqualsQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionWithEqualsQuoteHandlingWithoutStrip; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionWithEqualsQuoteHandlingWithStrip; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionConcatenatedQuoteHandling; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionQuoteHandlingWithoutStrip; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionQuoteHandlingWithStrip; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.DisablePartialMatchingTest
+Method: testDisablePartialMatching; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRegularPartialMatching; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.GnuParserTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption3; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testDoubleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithUnexpectedArgument1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithUnexpectedArgument2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingArgWithBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNegativeOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPartialLongOptionSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithUnexpectedArgument; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopBursting; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStopBursting2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption3; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnrecognizedOptionWithBursting; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.HelpFormatterTest
+Method: testAccessors; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAutomaticUsage; Parameter types : ; Cyclomatic Complexity: 1
+Method: testDefaultArgName; Parameter types : ; Cyclomatic Complexity: 1
+Method: testFindWrapPos; Parameter types : ; Cyclomatic Complexity: 1
+Method: testHeaderStartingWithLineSeparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: testHelpWithLongOptSeparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: testIndentedHeaderAndFooter; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionWithoutShortFormat; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionWithoutShortFormat2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintHelpNewlineFooter; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintHelpNewlineHeader; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintHelpWithEmptySyntax; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintOptionGroupUsage; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintOptionWithEmptyArgNameUsage; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintRequiredOptionGroupUsage; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintSortedUsage; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintSortedUsageWithNullComparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: testPrintUsage; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRenderWrappedTextMultiLine; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRenderWrappedTextMultiLinePadded; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRenderWrappedTextSingleLine; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRenderWrappedTextSingleLinePadded; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRenderWrappedTextSingleLinePadded2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRenderWrappedTextWordCut; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRtrim; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUsageWithLongOptSeparator; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.OptionBuilderTest
+Method: testBaseOptionCharOpt; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBaseOptionStringOpt; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderIsResettedAlways; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCompleteOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateIncompleteOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testIllegalOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testOptionArgNumbers; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSpecialOptChars; Parameter types : ; Cyclomatic Complexity: 1
+Method: testTwoCompleteOptions; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.OptionGroupTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetNames; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNoOptionsExtraArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSingleLongOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSingleOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSingleOptionFromGroup; Parameter types : ; Cyclomatic Complexity: 1
+Method: testToString; Parameter types : ; Cyclomatic Complexity: 3
+Method: testTwoLongOptionsFromGroup; Parameter types : ; Cyclomatic Complexity: 1
+Method: testTwoOptionsFromDifferentGroup; Parameter types : ; Cyclomatic Complexity: 1
+Method: testTwoOptionsFromGroup; Parameter types : ; Cyclomatic Complexity: 1
+Method: testTwoOptionsFromGroupWithProperties; Parameter types : ; Cyclomatic Complexity: 1
+Method: testTwoValidLongOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testTwoValidOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testValidLongOnlyOptions; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.OptionsTest
+Method: testDuplicateLong; Parameter types : ; Cyclomatic Complexity: 1
+Method: testDuplicateSimple; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetMatchingOpts; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetOptionsGroups; Parameter types : ; Cyclomatic Complexity: 1
+Method: testHelpOptions; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLong; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingOptionException; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMissingOptionsException; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSimple; Parameter types : ; Cyclomatic Complexity: 1
+Method: testToString; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.OptionTest
+Method: checkOption; Parameter types : Option, String, String, String, int, String, boolean, boolean, char, Class<?>; Cyclomatic Complexity: 1
+Method: testBuilderInsufficientParams1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderInsufficientParams2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderInvalidOptionName1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderInvalidOptionName2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderInvalidOptionName3; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderInvalidOptionName4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testBuilderMethods; Parameter types : ; Cyclomatic Complexity: 1
+Method: testClear; Parameter types : ; Cyclomatic Complexity: 1
+Method: testClone; Parameter types : ; Cyclomatic Complexity: 1
+Method: testGetValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testHasArgName; Parameter types : ; Cyclomatic Complexity: 1
+Method: testHasArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: testHashCode; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSubclass; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.PatternOptionBuilderTest
+Method: testClassPattern; Parameter types : ; Cyclomatic Complexity: 1
+Method: testEmptyPattern; Parameter types : ; Cyclomatic Complexity: 1
+Method: testExistingFilePattern; Parameter types : ; Cyclomatic Complexity: 1
+Method: testExistingFilePatternFileNotExist; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNumberPattern; Parameter types : ; Cyclomatic Complexity: 1
+Method: testObjectPattern; Parameter types : ; Cyclomatic Complexity: 1
+Method: testRequiredOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testSimplePattern; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUntypedPattern; Parameter types : ; Cyclomatic Complexity: 1
+Method: testURLPattern; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.PosixParserTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousLongWithoutEqualSingleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testAmbiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+Method: testDoubleDash2; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithoutEqualSingleDash; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithUnexpectedArgument1; Parameter types : ; Cyclomatic Complexity: 1
+Method: testNegativeOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithEqual; Parameter types : ; Cyclomatic Complexity: 1
+Method: testUnambiguousPartialLongOption4; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.TypeHandlerTest
+Method: testCreateValueClass; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueClass_notFound; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueDate; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueExistingFile; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueExistingFile_nonExistingFile; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueFile; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueFiles; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueInteger_failure; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueNumber_Double; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueNumber_Long; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueNumber_noNumber; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueObject_InstantiableClass; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueObject_notInstantiableClass; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueObject_unknownClass; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueString; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueURL; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCreateValueURL_malformed; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.UtilTest
+Method: testStripLeadingAndTrailingQuotes; Parameter types : ; Cyclomatic Complexity: 1
+Method: testStripLeadingHyphens; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.ValuesTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testCharSeparator; Parameter types : ; Cyclomatic Complexity: 1
+Method: testComplexValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testExtraArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: testMultipleArgValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortArgs; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortArgsWithValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testTwoArgValues; Parameter types : ; Cyclomatic Complexity: 1
+org.apache.commons.cli.ValueTest
+Method: setUp; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongNoArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongNoArgWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalArgValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalArgValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalArgValuesWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalArgValueWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalNArgValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalNArgValuesWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalNoValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongOptionalNoValueWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: testLongWithArgWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortNoArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortNoArgWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalArgNoValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalArgNoValueWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalArgValue; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalArgValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalArgValuesWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalArgValueWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalNArgValues; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortOptionalNArgValuesWithOption; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithArg; Parameter types : ; Cyclomatic Complexity: 1
+Method: testShortWithArgWithOption; Parameter types : ; Cyclomatic Complexity: 1
+
+Cyclomatic Complexity Histogram:
+org.apache.commons.cli.AlreadySelectedException
+CC getOption: ;*
+CC getOptionGroup: ;*
+org.apache.commons.cli.AmbiguousOptionException
+CC createMessage: ;**
+CC getMatchingOptions: ;*
+org.apache.commons.cli.BasicParser
+CC flatten: ;*
+org.apache.commons.cli.CommandLine
+CC addArg: ;**
+CC addOption: ;**
+CC getArgList: ;*
+CC getArgs: ;*
+CC getOptionObject: ;*
+CC getOptionObject: ;*
+CC getOptionProperties: ;*
+CC getOptionProperties: ;*
+CC getOptions: ;*
+CC getOptionValue: ;*
+CC getOptionValue: ;*
+CC getOptionValue: ;**
+CC getOptionValue: ;*
+CC getOptionValue: ;*
+CC getOptionValue: ;*
+CC getOptionValues: ;*
+CC getOptionValues: ;*
+CC getOptionValues: ;*
+CC getParsedOptionValue: ;*
+CC getParsedOptionValue: ;***
+CC getParsedOptionValue: ;*
+CC hasOption: ;*
+CC hasOption: ;*
+CC hasOption: ;*
+CC iterator: ;*
+CC resolveOption: ;**
+org.apache.commons.cli.CommandLineParser
+CC parse: ;*
+CC parse: ;*
+org.apache.commons.cli.DefaultParser
+CC builder: ;*
+CC checkRequiredArgs: ;***
+CC checkRequiredOptions: ;**
+CC getLongPrefix: ;**
+CC getMatchingLongOptions: ;***
+CC handleConcatenatedOptions: ;**
+CC handleLongOption: ;**
+CC handleLongOptionWithEqual: ;**
+CC handleLongOptionWithoutEqual: ;**
+CC handleOption: ;**
+CC handleProperties: ;***
+CC handleShortAndLongOption: ;**
+CC handleToken: ;****
+CC handleUnknownToken: ;*****
+CC isArgument: ;*
+CC isJavaProperty: ;*
+CC isLongOption: ;*******
+CC isNegativeNumber: ;*
+CC isOption: ;*
+CC isShortOption: ;*****
+CC parse: ;*
+CC parse: ;*
+CC parse: ;*
+CC parse: ;**
+CC stripLeadingAndTrailingQuotesDefaultOff: ;***
+CC stripLeadingAndTrailingQuotesDefaultOn: ;***
+CC updateRequiredOptions: ;***
+org.apache.commons.cli.GnuParser
+CC flatten: ;**
+org.apache.commons.cli.HelpFormatter
+CC appendOption: ;******
+CC appendOptionGroup: ;*****
+CC createPadding: ;*
+CC findWrapPos: ;********
+CC getArgName: ;*
+CC getDescPadding: ;*
+CC getLeftPadding: ;*
+CC getLongOptPrefix: ;*
+CC getLongOptSeparator: ;*
+CC getNewLine: ;*
+CC getOptionComparator: ;*
+CC getOptPrefix: ;*
+CC getSyntaxPrefix: ;*
+CC getWidth: ;*
+CC printHelp: ;*
+CC printHelp: ;*
+CC printHelp: ;*
+CC printHelp: ;********
+CC printHelp: ;*
+CC printHelp: ;*
+CC printHelp: ;*
+CC printHelp: ;*
+CC printOptions: ;*
+CC printUsage: ;*
+CC printUsage: ;***
+CC printWrapped: ;*
+CC printWrapped: ;*
+CC renderOptions: ;***
+CC renderWrappedText: ;****
+CC renderWrappedTextBlock: ;*
+CC rtrim: ;*****
+CC setArgName: ;*
+CC setDescPadding: ;*
+CC setLeftPadding: ;*
+CC setLongOptPrefix: ;*
+CC setLongOptSeparator: ;*
+CC setNewLine: ;*
+CC setOptionComparator: ;*
+CC setOptPrefix: ;*
+CC setSyntaxPrefix: ;*
+CC setWidth: ;*
+org.apache.commons.cli.MissingArgumentException
+CC getOption: ;*
+org.apache.commons.cli.MissingOptionException
+CC createMessage: ;**
+CC getMissingOptions: ;*
+org.apache.commons.cli.Option
+CC builder: ;*
+CC builder: ;*
+CC acceptsArg: ;*
+CC add: ;**
+CC addValue: ;*
+CC addValueForProcessing: ;**
+CC clearValues: ;*
+CC clone: ;*
+CC equals: ;***
+CC getArgName: ;*
+CC getArgs: ;*
+CC getDescription: ;*
+CC getId: ;*
+CC getKey: ;*
+CC getLongOpt: ;*
+CC getOpt: ;*
+CC getType: ;*
+CC getValue: ;*
+CC getValue: ;*
+CC getValue: ;*
+CC getValues: ;*
+CC getValueSeparator: ;*
+CC getValuesList: ;*
+CC hasArg: ;*
+CC hasArgName: ;*
+CC hasArgs: ;*
+CC hashCode: ;*
+CC hasLongOpt: ;*
+CC hasNoValues: ;*
+CC hasOptionalArg: ;*
+CC hasValueSeparator: ;*
+CC isRequired: ;*
+CC processValue: ;**
+CC requiresArg: ;***
+CC setArgName: ;*
+CC setArgs: ;*
+CC setDescription: ;*
+CC setLongOpt: ;*
+CC setOptionalArg: ;*
+CC setRequired: ;*
+CC setType: ;*
+CC setType: ;*
+CC setValueSeparator: ;*
+CC toString: ;****
+org.apache.commons.cli.OptionBuilder
+CC create: ;**
+CC create: ;*
+CC create: ;*
+CC hasArg: ;*
+CC hasArg: ;*
+CC hasArgs: ;*
+CC hasArgs: ;*
+CC hasOptionalArg: ;*
+CC hasOptionalArgs: ;*
+CC hasOptionalArgs: ;*
+CC isRequired: ;*
+CC isRequired: ;*
+CC reset: ;*
+CC withArgName: ;*
+CC withDescription: ;*
+CC withLongOpt: ;*
+CC withType: ;*
+CC withType: ;*
+CC withValueSeparator: ;*
+CC withValueSeparator: ;*
+org.apache.commons.cli.OptionGroup
+CC addOption: ;*
+CC getNames: ;*
+CC getOptions: ;*
+CC getSelected: ;*
+CC isRequired: ;*
+CC setRequired: ;*
+CC setSelected: ;****
+CC toString: ;**
+org.apache.commons.cli.Options
+CC addOption: ;***
+CC addOption: ;*
+CC addOption: ;*
+CC addOption: ;*
+CC addOptionGroup: ;**
+CC addRequiredOption: ;*
+CC getMatchingOptions: ;**
+CC getOption: ;*
+CC getOptionGroup: ;*
+CC getOptionGroups: ;*
+CC getOptions: ;*
+CC getRequiredOptions: ;*
+CC hasLongOption: ;*
+CC hasOption: ;*
+CC hasShortOption: ;*
+CC helpOptions: ;*
+CC toString: ;*
+org.apache.commons.cli.OptionValidator
+CC isValidChar: ;*
+CC isValidOpt: ;*
+CC validate: ;***
+org.apache.commons.cli.ParseException
+org.apache.commons.cli.Parser
+CC checkRequiredOptions: ;**
+CC flatten: ;*
+CC getOptions: ;*
+CC getRequiredOptions: ;*
+CC parse: ;*
+CC parse: ;*
+CC parse: ;*
+CC parse: ;***
+CC processArgs: ;****
+CC processOption: ;***
+CC processProperties: ;***
+CC setOptions: ;*
+CC updateRequiredOptions: ;***
+org.apache.commons.cli.PatternOptionBuilder
+CC getValueClass: ;**********
+CC isValueCode: ;*
+CC parsePattern: ;***
+org.apache.commons.cli.PosixParser
+CC burstToken: ;**
+CC flatten: ;**
+CC gobble: ;**
+CC init: ;*
+CC processNonOptionToken: ;***
+CC processOptionToken: ;****
+org.apache.commons.cli.TypeHandler
+CC createClass: ;*
+CC createDate: ;*
+CC createFile: ;*
+CC createFiles: ;*
+CC createNumber: ;*
+CC createObject: ;*
+CC createURL: ;*
+CC createValue: ;**********
+CC createValue: ;*
+CC openFile: ;*
+org.apache.commons.cli.UnrecognizedOptionException
+CC getOption: ;*
+org.apache.commons.cli.Util
+CC stripLeadingAndTrailingQuotes: ;*****
+CC stripLeadingHyphens: ;****
+org.apache.commons.cli.AbstractParserTestCase
+CC parse: ;***
+CC setUp: ;*
+CC testAmbiguousArgParsing: ;*
+CC testAmbiguousLongWithoutEqualSingleDash: ;*
+CC testAmbiguousLongWithoutEqualSingleDash2: ;*
+CC testAmbiguousPartialLongOption1: ;*
+CC testAmbiguousPartialLongOption2: ;*
+CC testAmbiguousPartialLongOption3: ;*
+CC testAmbiguousPartialLongOption4: ;*
+CC testArgumentStartingWithHyphen: ;*
+CC testBursting: ;*
+CC testDoubleDash1: ;*
+CC testDoubleDash2: ;*
+CC testLongOptionQuoteHandling: ;*
+CC testLongOptionWithEqualsQuoteHandling: ;*
+CC testLongWithEqualDoubleDash: ;*
+CC testLongWithEqualSingleDash: ;*
+CC testLongWithoutEqualDoubleDash: ;*
+CC testLongWithoutEqualSingleDash: ;*
+CC testLongWithUnexpectedArgument1: ;*
+CC testLongWithUnexpectedArgument2: ;*
+CC testMissingArg: ;*
+CC testMissingArgWithBursting: ;*
+CC testMissingRequiredGroup: ;*
+CC testMissingRequiredOption: ;*
+CC testMissingRequiredOptions: ;*
+CC testMultiple: ;*
+CC testMultipleWithLong: ;*
+CC testNegativeArgument: ;*
+CC testNegativeOption: ;*
+CC testOptionAndRequiredOption: ;*
+CC testOptionGroup: ;*
+CC testOptionGroupLong: ;*
+CC testPartialLongOptionSingleDash: ;*
+CC testPropertiesOption1: ;*
+CC testPropertiesOption2: ;*
+CC testPropertyOptionFlags: ;*
+CC testPropertyOptionGroup: ;*
+CC testPropertyOptionMultipleValues: ;*
+CC testPropertyOptionRequired: ;*
+CC testPropertyOptionSingularValue: ;*
+CC testPropertyOptionUnexpected: ;*
+CC testPropertyOverrideValues: ;*
+CC testReuseOptionsTwice: ;*
+CC testShortOptionConcatenatedQuoteHandling: ;*
+CC testShortOptionQuoteHandling: ;*
+CC testShortWithEqual: ;*
+CC testShortWithoutEqual: ;*
+CC testShortWithUnexpectedArgument: ;*
+CC testSimpleLong: ;*
+CC testSimpleShort: ;*
+CC testSingleDash: ;*
+CC testStopAtExpectedArg: ;*
+CC testStopAtNonOptionLong: ;*
+CC testStopAtNonOptionShort: ;*
+CC testStopAtUnexpectedArg: ;*
+CC testStopBursting: ;*
+CC testStopBursting2: ;*
+CC testUnambiguousPartialLongOption1: ;*
+CC testUnambiguousPartialLongOption2: ;*
+CC testUnambiguousPartialLongOption3: ;*
+CC testUnambiguousPartialLongOption4: ;*
+CC testUnlimitedArgs: ;*
+CC testUnrecognizedOption: ;*
+CC testUnrecognizedOptionWithBursting: ;*
+CC testWithRequiredOption: ;*
+org.apache.commons.cli.ApplicationTest
+CC testAnt: ;*
+CC testGroovy: ;*
+CC testLs: ;*
+CC testMan: ;*
+CC testNLT: ;*
+org.apache.commons.cli.ArgumentIsOptionTest
+CC setUp: ;*
+CC testOption: ;*
+CC testOptionAndOptionWithArgument: ;*
+CC testOptionWithArgument: ;*
+org.apache.commons.cli.BasicParserTest
+CC setUp: ;*
+CC testAmbiguousLongWithoutEqualSingleDash: ;*
+CC testAmbiguousLongWithoutEqualSingleDash2: ;*
+CC testAmbiguousPartialLongOption1: ;*
+CC testAmbiguousPartialLongOption2: ;*
+CC testAmbiguousPartialLongOption3: ;*
+CC testAmbiguousPartialLongOption4: ;*
+CC testBursting: ;*
+CC testDoubleDash2: ;*
+CC testLongOptionWithEqualsQuoteHandling: ;*
+CC testLongWithEqualDoubleDash: ;*
+CC testLongWithEqualSingleDash: ;*
+CC testLongWithoutEqualSingleDash: ;*
+CC testMissingArgWithBursting: ;*
+CC testNegativeOption: ;*
+CC testPartialLongOptionSingleDash: ;*
+CC testPropertiesOption1: ;*
+CC testPropertiesOption2: ;*
+CC testShortOptionConcatenatedQuoteHandling: ;*
+CC testShortWithEqual: ;*
+CC testShortWithoutEqual: ;*
+CC testStopBursting: ;*
+CC testStopBursting2: ;*
+CC testUnambiguousPartialLongOption1: ;*
+CC testUnambiguousPartialLongOption2: ;*
+CC testUnambiguousPartialLongOption3: ;*
+CC testUnambiguousPartialLongOption4: ;*
+CC testUnrecognizedOptionWithBursting: ;*
+org.apache.commons.cli.bug.BugCLI133Test
+CC testOrder: ;*
+org.apache.commons.cli.bug.BugCLI13Test
+CC testCLI13: ;*
+org.apache.commons.cli.bug.BugCLI148Test
+CC setUp: ;*
+CC testWorkaround1: ;*
+CC testWorkaround2: ;*
+org.apache.commons.cli.bug.BugCLI162Test
+CC setUp: ;*
+CC testInfiniteLoop: ;*
+CC testLongLineChunking: ;*
+CC testLongLineChunkingIndentIgnored: ;*
+CC testPrintHelpLongLines: ;*
+org.apache.commons.cli.bug.BugCLI18Test
+CC testCLI18: ;*
+org.apache.commons.cli.bug.BugCLI252Test
+CC getOptions: ;*
+CC testAmbiquousOptionName: ;*
+CC testExactOptionNameMatch: ;*
+org.apache.commons.cli.bug.BugCLI265Test
+CC setUp: ;*
+CC testShouldParseConcatenatedShortOptions: ;*
+CC testShouldParseShortOptionWithoutValue: ;*
+CC testShouldParseShortOptionWithValue: ;*
+org.apache.commons.cli.bug.BugCLI266Test
+CC buildOptionsGroup: ;*
+CC getOptions: ;*
+CC testOptionComparatorDefaultOrder: ;*
+CC testOptionComparatorInsertedOrder: ;*
+org.apache.commons.cli.bug.BugCLI71Test
+CC setUp: ;*
+CC testBasic: ;*
+CC testGetsDefaultIfOptional: ;*
+CC testLackOfError: ;*
+CC testMistakenArgument: ;*
+org.apache.commons.cli.bug.BugsTest
+CC test11456: ;*
+CC test11457: ;*
+CC test11458: ;**
+CC test11680: ;*
+CC test12210: ;**
+CC test13425: ;*
+CC test13666: ;*
+CC test13935: ;*
+CC test14786: ;*
+CC test15046: ;*
+CC test15648: ;*
+CC test31148: ;*
+org.apache.commons.cli.CommandLineTest
+CC testBuilder: ;*
+CC testBuilderNullArgs: ;*
+CC testBuilderNullOption: ;*
+CC testGetOptionProperties: ;*
+CC testGetOptionPropertiesWithOption: ;*
+CC testGetOptions: ;*
+CC testGetParsedOptionValue: ;*
+CC testGetParsedOptionValueWithChar: ;*
+CC testGetParsedOptionValueWithOption: ;*
+CC testNullhOption: ;*
+org.apache.commons.cli.DefaultParserTest
+CC setUp: ;*
+CC testBuilder: ;*
+CC testLongOptionQuoteHandlingWithoutStrip: ;*
+CC testLongOptionQuoteHandlingWithStrip: ;*
+CC testLongOptionWithEqualsQuoteHandling: ;*
+CC testLongOptionWithEqualsQuoteHandlingWithoutStrip: ;*
+CC testLongOptionWithEqualsQuoteHandlingWithStrip: ;*
+CC testShortOptionConcatenatedQuoteHandling: ;*
+CC testShortOptionQuoteHandlingWithoutStrip: ;*
+CC testShortOptionQuoteHandlingWithStrip: ;*
+org.apache.commons.cli.DisablePartialMatchingTest
+CC testDisablePartialMatching: ;*
+CC testRegularPartialMatching: ;*
+org.apache.commons.cli.GnuParserTest
+CC setUp: ;*
+CC testAmbiguousLongWithoutEqualSingleDash: ;*
+CC testAmbiguousLongWithoutEqualSingleDash2: ;*
+CC testAmbiguousPartialLongOption1: ;*
+CC testAmbiguousPartialLongOption2: ;*
+CC testAmbiguousPartialLongOption3: ;*
+CC testAmbiguousPartialLongOption4: ;*
+CC testBursting: ;*
+CC testDoubleDash2: ;*
+CC testLongWithoutEqualSingleDash: ;*
+CC testLongWithUnexpectedArgument1: ;*
+CC testLongWithUnexpectedArgument2: ;*
+CC testMissingArgWithBursting: ;*
+CC testNegativeOption: ;*
+CC testPartialLongOptionSingleDash: ;*
+CC testShortWithUnexpectedArgument: ;*
+CC testStopBursting: ;*
+CC testStopBursting2: ;*
+CC testUnambiguousPartialLongOption1: ;*
+CC testUnambiguousPartialLongOption2: ;*
+CC testUnambiguousPartialLongOption3: ;*
+CC testUnambiguousPartialLongOption4: ;*
+CC testUnrecognizedOptionWithBursting: ;*
+org.apache.commons.cli.HelpFormatterTest
+CC testAccessors: ;*
+CC testAutomaticUsage: ;*
+CC testDefaultArgName: ;*
+CC testFindWrapPos: ;*
+CC testHeaderStartingWithLineSeparator: ;*
+CC testHelpWithLongOptSeparator: ;*
+CC testIndentedHeaderAndFooter: ;*
+CC testOptionWithoutShortFormat: ;*
+CC testOptionWithoutShortFormat2: ;*
+CC testPrintHelpNewlineFooter: ;*
+CC testPrintHelpNewlineHeader: ;*
+CC testPrintHelpWithEmptySyntax: ;*
+CC testPrintOptionGroupUsage: ;*
+CC testPrintOptions: ;*
+CC testPrintOptionWithEmptyArgNameUsage: ;*
+CC testPrintRequiredOptionGroupUsage: ;*
+CC testPrintSortedUsage: ;*
+CC testPrintSortedUsageWithNullComparator: ;*
+CC testPrintUsage: ;*
+CC testRenderWrappedTextMultiLine: ;*
+CC testRenderWrappedTextMultiLinePadded: ;*
+CC testRenderWrappedTextSingleLine: ;*
+CC testRenderWrappedTextSingleLinePadded: ;*
+CC testRenderWrappedTextSingleLinePadded2: ;*
+CC testRenderWrappedTextWordCut: ;*
+CC testRtrim: ;*
+CC testUsageWithLongOptSeparator: ;*
+org.apache.commons.cli.OptionBuilderTest
+CC testBaseOptionCharOpt: ;*
+CC testBaseOptionStringOpt: ;*
+CC testBuilderIsResettedAlways: ;*
+CC testCompleteOption: ;*
+CC testCreateIncompleteOption: ;*
+CC testIllegalOptions: ;*
+CC testOptionArgNumbers: ;*
+CC testSpecialOptChars: ;*
+CC testTwoCompleteOptions: ;*
+org.apache.commons.cli.OptionGroupTest
+CC setUp: ;*
+CC testGetNames: ;*
+CC testNoOptionsExtraArgs: ;*
+CC testSingleLongOption: ;*
+CC testSingleOption: ;*
+CC testSingleOptionFromGroup: ;*
+CC testToString: ;***
+CC testTwoLongOptionsFromGroup: ;*
+CC testTwoOptionsFromDifferentGroup: ;*
+CC testTwoOptionsFromGroup: ;*
+CC testTwoOptionsFromGroupWithProperties: ;*
+CC testTwoValidLongOptions: ;*
+CC testTwoValidOptions: ;*
+CC testValidLongOnlyOptions: ;*
+org.apache.commons.cli.OptionsTest
+CC testDuplicateLong: ;*
+CC testDuplicateSimple: ;*
+CC testGetMatchingOpts: ;*
+CC testGetOptionsGroups: ;*
+CC testHelpOptions: ;*
+CC testLong: ;*
+CC testMissingOptionException: ;*
+CC testMissingOptionsException: ;*
+CC testSimple: ;*
+CC testToString: ;*
+org.apache.commons.cli.OptionTest
+CC checkOption: ;*
+CC testBuilderInsufficientParams1: ;*
+CC testBuilderInsufficientParams2: ;*
+CC testBuilderInvalidOptionName1: ;*
+CC testBuilderInvalidOptionName2: ;*
+CC testBuilderInvalidOptionName3: ;*
+CC testBuilderInvalidOptionName4: ;*
+CC testBuilderMethods: ;*
+CC testClear: ;*
+CC testClone: ;*
+CC testGetValue: ;*
+CC testHasArgName: ;*
+CC testHasArgs: ;*
+CC testHashCode: ;*
+CC testSubclass: ;*
+org.apache.commons.cli.PatternOptionBuilderTest
+CC testClassPattern: ;*
+CC testEmptyPattern: ;*
+CC testExistingFilePattern: ;*
+CC testExistingFilePatternFileNotExist: ;*
+CC testNumberPattern: ;*
+CC testObjectPattern: ;*
+CC testRequiredOption: ;*
+CC testSimplePattern: ;*
+CC testUntypedPattern: ;*
+CC testURLPattern: ;*
+org.apache.commons.cli.PosixParserTest
+CC setUp: ;*
+CC testAmbiguousLongWithoutEqualSingleDash: ;*
+CC testAmbiguousLongWithoutEqualSingleDash2: ;*
+CC testAmbiguousPartialLongOption4: ;*
+CC testDoubleDash2: ;*
+CC testLongWithEqualSingleDash: ;*
+CC testLongWithoutEqualSingleDash: ;*
+CC testLongWithUnexpectedArgument1: ;*
+CC testNegativeOption: ;*
+CC testShortWithEqual: ;*
+CC testUnambiguousPartialLongOption4: ;*
+org.apache.commons.cli.TypeHandlerTest
+CC testCreateValueClass: ;*
+CC testCreateValueClass_notFound: ;*
+CC testCreateValueDate: ;*
+CC testCreateValueExistingFile: ;*
+CC testCreateValueExistingFile_nonExistingFile: ;*
+CC testCreateValueFile: ;*
+CC testCreateValueFiles: ;*
+CC testCreateValueInteger_failure: ;*
+CC testCreateValueNumber_Double: ;*
+CC testCreateValueNumber_Long: ;*
+CC testCreateValueNumber_noNumber: ;*
+CC testCreateValueObject_InstantiableClass: ;*
+CC testCreateValueObject_notInstantiableClass: ;*
+CC testCreateValueObject_unknownClass: ;*
+CC testCreateValueString: ;*
+CC testCreateValueURL: ;*
+CC testCreateValueURL_malformed: ;*
+org.apache.commons.cli.UtilTest
+CC testStripLeadingAndTrailingQuotes: ;*
+CC testStripLeadingHyphens: ;*
+org.apache.commons.cli.ValuesTest
+CC setUp: ;*
+CC testCharSeparator: ;*
+CC testComplexValues: ;*
+CC testExtraArgs: ;*
+CC testMultipleArgValues: ;*
+CC testShortArgs: ;*
+CC testShortArgsWithValue: ;*
+CC testTwoArgValues: ;*
+org.apache.commons.cli.ValueTest
+CC setUp: ;*
+CC testLongNoArg: ;*
+CC testLongNoArgWithOption: ;*
+CC testLongOptionalArgValue: ;*
+CC testLongOptionalArgValues: ;*
+CC testLongOptionalArgValuesWithOption: ;*
+CC testLongOptionalArgValueWithOption: ;*
+CC testLongOptionalNArgValues: ;*
+CC testLongOptionalNArgValuesWithOption: ;*
+CC testLongOptionalNoValue: ;*
+CC testLongOptionalNoValueWithOption: ;*
+CC testLongWithArg: ;*
+CC testLongWithArgWithOption: ;*
+CC testShortNoArg: ;*
+CC testShortNoArgWithOption: ;*
+CC testShortOptionalArgNoValue: ;*
+CC testShortOptionalArgNoValueWithOption: ;*
+CC testShortOptionalArgValue: ;*
+CC testShortOptionalArgValues: ;*
+CC testShortOptionalArgValuesWithOption: ;*
+CC testShortOptionalArgValueWithOption: ;*
+CC testShortOptionalNArgValues: ;*
+CC testShortOptionalNArgValuesWithOption: ;*
+CC testShortWithArg: ;*
+CC testShortWithArgWithOption: ;*
